@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Техническая поддержка</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Сайт об HTML и создании сайтов">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400;300" rel="stylesheet" type="text/css">
+
+    <style>
+        h3{
+            color: #282828;
+        }
+
+        .img{
+            margin-left: 150px;
+        }
+
+        h1{
+            color: #282828;
+        }
+
+        #column1{
+            float: left;
+            margin-left: -150px;
+            margin-top: -85px;
+            width: 500px;
+            height: 600px;
+        }
+
+        #title{
+            background-color: #282828;
+            height: 115px;
+            width: 100%;
+        }
+
+        p{
+            font-size: 400%;
+            margin-top:0%;
+            color: #D8D8D8;
+            margin-left: 0%;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        body {
+            background: #D0D0D0;
+            height: 100%;
+            background-size: 1300px 800px;
+        }
+
+        a {
+            text-decoration: none;
+            outline: none;
+            display: inline-block;
+            padding: 10px 10px;
+            margin: 10px 10px;
+            position: relative;
+            color: #383838;
+            border: 1px solid rgba(255,255,255,.4);
+            background: rgba(255,255,255,0.5);
+            font-weight: 900;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        a:before,
+        a:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            opacity: 0;
+            box-sizing: border-box;
+        }
+
+        a:before {
+            bottom: 0;
+            left: 0;
+            border-left: 1px solid white;
+            border-top: 1px solid white;
+            transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+        }
+
+        a:after {
+            top: 0;
+            right: 0;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+            transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+        }
+
+        a:hover:before,
+        a:hover:after{
+            height: 100%;
+            width: 100%;
+            opacity: 1;
+        }
+
+        a:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+        a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+        a:hover {background: rgba(255,255,255,.2);}
+    </style>
+</head>
+<body>
+<footer id="title">
+    <br><p><font face="Arial">Technical support</font></p>
+</footer>
+
+<div style="text-align:right">
+    <a href="signUP.html">Sign up</a>
+    <a href="signIN.html">Sign in</a>
+</div>
+
+<div>
+    <table class="img" align="left">
+        <tr>
+            <td>
+                <br><img src="https://i.pinimg.com/564x/a8/11/ef/a811ef6a07c912ac5a30c60c2840293e.jpg" id="column1" >
+            </td>
+        </tr>
+    </table>
+    <table align="center">
+        <tr>
+            <td width="700">
+                <h1>Ми раді, що ви обрали наше програмне забеспечення для технічної підтримки, яке допоможе налагодити та створити гарну систему обслуговування та надання послуг клієнтам.</h1>
+                <h3>Служба технічної підтримки, що розглядається в цій концепції, є першою точкою дотику з компанією. Результативні і ефективні відповіді на запити користувачів можуть багато зробити для поліпшення репутації компанії. Крім того, служба підтримки забезпечує організовану і скоординовану середу для співробітників, зайнятих в підтримці користувачів.</h3>
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+
+</div>
+</body>
+</html>
